@@ -71,16 +71,5 @@ namespace OazMetal
 			
 			return res;
 		}
-		public static Dictionary<string,double> dicAdicionales(this Productos producto)
-		{
-			Dictionary<string,double> res = new Dictionary<string, double>();
-			string[] ads = producto.Adicionales.Split(';');
-			foreach (string ren in ads){
-				string[] rens = ren.Split(',');
-				res.Add(rens[0],double.Parse(rens[1]));
-			};
-			
-			return res;
-		}
 	}
 }
