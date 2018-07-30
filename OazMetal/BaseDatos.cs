@@ -84,5 +84,3 @@ namespace OazMetal
 		}
 	}
 }
-
-// uniformes cbta 5812709 o al cel. 6252831434
